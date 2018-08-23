@@ -21,8 +21,10 @@ function whileLoop(number){
 function doWhileLoop(array){
   
   function incrementVariable() {
-    let i = i + 1;
+    i = i + 1;
   }
+  
+  let i = 0;
   
   do {
     array.pop()
